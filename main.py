@@ -157,4 +157,5 @@ if __name__ == "__main__":
 
         except Exception as e:
             log(f"Erro loop: {str(e)}", error=True)
+
             time.sleep(5)
